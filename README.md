@@ -4,7 +4,10 @@
 
 The project is about profiling internet users over a period based on the internet used by users. It demonstrates that internet users are statistically indistinguishable when compared to the internet usages of the same user over time while simultaneously being statistically distinguishable when compared to internet uses of other users.
 
-![GitHub Logo](/images/1.png) ![GitHub](/images/2.png)
+Time Windows Analysis             |  Statistically Indistinguishable Users
+:-------------------------:|:-------------------------:
+![](1.png)  |  ![](3.png)
+
 # Workflow
 
 The project is designed in Python language using Pandas API to perform data abstraction and manipulation on given datasets. The overall project is intended to execute into two steps, named as execution step 1 and execution step 2. The first stage is the one where data preprocessing is performed on given user data files. It stores the data in intermediary files. In the second step, the preprocessed data is taken one by one to complete the calculation of spearman rank correlation, z values, and final P values.
