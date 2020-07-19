@@ -39,29 +39,29 @@ Yes/No Table: [https://usf.box.com/s/je0lfm9u5os7ek8pss6y2gc4bnernfqx](https://u
 
 # Analysis of Time Windows
 
-  Based on the collected data from the P-value table, it can be concluded that whether two users are distinguishable or indistinguishable. When P ≤ 0.05, then it means that the correlation coefficient calculated for internet usage patterns for a user B is significantly smaller compare to user A. On the other hand, if P \&gt; 0.05, then user B is not substantially lower than for user A.  
+  Based on the collected data from the P-value table, it can be concluded that whether two users are distinguishable or indistinguishable.  When P ≤ 0.05, then it means that the correlation coefficient calculated for internet usage patterns for a user B is significantly smaller compare to user A. On the other hand, if P ≥ 0.05, then user B is not substantially lower than for user A.  
 
 It can be concluded that if:
-  P \&gt; 0.05 means that User B is identified as indistinguishable from User A  
+  P ≥  0.05 means that User B is identified as indistinguishable from User A  
   P ≤ 0.05 means that User B is identified as distinguishable from User A  
 
 The given below graph represents the data of each time window in which based on the count of yes and no. Here yes, described that User A is statistically indistinguishable from another User B or P \&gt; 0.05. The no represents that User A is statistically distinguishable from another User B or P ≤ 0.05.  
 
 ## 1. Time window 10 analysis: ## 
 
-Total &#39;Yes&#39; count or when P \&gt;0.05: There is a total of 1731 cells in the P-value matrix that are found to be indistinguishable from each other.  
+Total &#39;Yes&#39; count or when P ≥ 0.05: There is a total of 1731 cells in the P-value matrix that are found to be indistinguishable from each other.  
 Total &#39;No&#39; count or when P ≤ 0.05: There are a total of 1185 cells in the P-value matrix that are found to be distinguishable when compared to each other.  
 The average number of P values that are greater than 0.05: **0.8154688682842**  
 
 ## 2. Time window 227 analysis ## 
 
-Total &#39;Yes&#39; count or when P \&gt;0.05: There are a total of 2304 cells in the P-value matrix that are found to be indistinguishable from each other.  
+Total &#39;Yes&#39; count or when P ≥ 0.05: There are a total of 2304 cells in the P-value matrix that are found to be indistinguishable from each other.  
 Total &#39;No&#39; count or when P ≤ 0.05: There are a total of 612 cells in the P-value matrix that are found to be distinguishable when compared to each other.  
 The average number of P values that are greater than 0.05: **0.7258264226098388**  
 
 ## 3. Time window 300 analysis: ## 
 
-Total &#39;Yes&#39; count or when P \&gt;0.05: There is a total of 2359 cells in the P-value matrix that are found to be indistinguishable from each other.  
+Total &#39;Yes&#39; count or when P ≥ 0.05: There is a total of 2359 cells in the P-value matrix that are found to be indistinguishable from each other.  
 Total &#39;No&#39; count or when P ≤ 0.05: There is a total of 557 cells in the P-value matrix that are found to be distinguishable when compared to each other.  
 The average number of P values that are greater than 0.05: **0.7092690053148268**  
 
