@@ -2,59 +2,51 @@
 
 # The Project
 
-The project is about profiling internet users over a period based on the internet used by users. It demonstrates that internet users are statistically indistinguishable when compared to the internet usages of the same user over time while simultaneously being statistically distinguishable when compared to internet uses of other users.
+  The project is about profiling internet users over a period based on the internet used by users. It demonstrates that internet users are statistically indistinguishable when compared to the internet usages of the same user over time while simultaneously being statistically distinguishable when compared to internet uses of other users.
 
-Time Windows Analysis             |  Statistically Indistinguishable Users
+Time Windows Analysis             |  Statistical Analysis
 :-------------------------:|:-------------------------:
 ![](1.png)  |  ![](3.png)
 
 # Workflow
 
-The project is designed in Python language using Pandas API to perform data abstraction and manipulation on given datasets. The overall project is intended to execute into two steps, named as execution step 1 and execution step 2. The first stage is the one where data preprocessing is performed on given user data files. It stores the data in intermediary files. In the second step, the preprocessed data is taken one by one to complete the calculation of spearman rank correlation, z values, and final P values.
+  The project is designed in Python language using Pandas API to perform data abstraction and manipulation on given datasets. The overall project is intended to execute into two steps, named as execution step 1 and execution step 2. The first stage is the one where data preprocessing is performed on given user data files. It stores the data in intermediary files. In the second step, the preprocessed data is taken one by one to complete the calculation of spearman rank correlation, z values, and final P values.
 
 # The P Values Tables
 
-The P table is created for 54 users, so it has 54 \* 54 table data. It is difficult to fit the table in this report, so I am adding the complete file and a link as well to the full report.
+  The P table is created for 54 users, so it has 54 \* 54 table data. It is difficult to fit the table in this report, so I am adding the complete file and a link as well to the full report.
 
-1. Item 1. **10 seconds time window P values:**
+**1. 10 seconds time window P values:**
 
-Rows = week1 (4th Feb 2013 to 8th Feb 2013)
+  Rows = week1 (4th Feb 2013 to 8th Feb 2013)
+  Columns = week 2 (11th Feb 2013 to 15th Feb 2013)
+  
+  CSV file: [https://usf.box.com/s/sr355f8ey0kioc6jysfma6ja9yja9ier](https://usf.box.com/s/sr355f8ey0kioc6jysfma6ja9yja9ier)
+  Yes/No Table: [https://usf.box.com/s/786a130pq391kgiegtm0lc9q2x3s4gwh](https://usf.box.com/s/786a130pq391kgiegtm0lc9q2x3s4gwh)
 
-Columns = week 2 (11th Feb 2013 to 15th Feb 2013)
-
-CSV file: [https://usf.box.com/s/sr355f8ey0kioc6jysfma6ja9yja9ier](https://usf.box.com/s/sr355f8ey0kioc6jysfma6ja9yja9ier)
-
-Yes/No Table: [https://usf.box.com/s/786a130pq391kgiegtm0lc9q2x3s4gwh](https://usf.box.com/s/786a130pq391kgiegtm0lc9q2x3s4gwh)
-
-1. Item 2 **227 second time window P values:**
+**2. 227 second time window P values:**
 
 Rows = week1 (4th Feb 2013 to 8th Feb 2013)
-
 Columns = week 2 (11th Feb 2013 to 15th Feb 2013)
 
 Complete CSV file: [https://usf.box.com/s/q16f2dpyi43fz5qslrcbk9bqtib4g445](https://usf.box.com/s/q16f2dpyi43fz5qslrcbk9bqtib4g445)
-
 Yes/No Table: [https://usf.box.com/s/p2tdwg8doty84m9mnvu5d7o6yxyo4hmz](https://usf.box.com/s/p2tdwg8doty84m9mnvu5d7o6yxyo4hmz)
 
-1. Item 3 **5-minute (300 seconds) time window P values:**
+**3. 5-minute (300 seconds) time window P values:**
 
 Rows = week1 (4th Feb 2013 to 8th Feb 2013)
-
 Columns = week 2 (11th Feb 2013 to 15th Feb 2013)
 
 Complete CSV file: [https://usf.box.com/s/4mkheybsa39pjml9epji3b7lmue3xr81](https://usf.box.com/s/4mkheybsa39pjml9epji3b7lmue3xr81)
-
 Yes/No Table: [https://usf.box.com/s/je0lfm9u5os7ek8pss6y2gc4bnernfqx](https://usf.box.com/s/je0lfm9u5os7ek8pss6y2gc4bnernfqx)
 
 # Analysis of Time Windows
 
-Based on the collected data from the P-value table, it can be concluded that whether two users are distinguishable or indistinguishable. When P ≤ 0.05, then it means that the correlation coefficient calculated for internet usage patterns for a user B is significantly smaller compare to user A. On the other hand, if P \&gt; 0.05, then user B is not substantially lower than for user A.
+  Based on the collected data from the P-value table, it can be concluded that whether two users are distinguishable or indistinguishable. When P ≤ 0.05, then it means that the correlation coefficient calculated for internet usage patterns for a user B is significantly smaller compare to user A. On the other hand, if P \&gt; 0.05, then user B is not substantially lower than for user A.
 
 It can be concluded that if:
-
-P \&gt; 0.05 means that User B is identified as indistinguishable from User A
-
-P ≤ 0.05 means that User B is identified as distinguishable from User A
+  P \&gt; 0.05 means that User B is identified as indistinguishable from User A
+  P ≤ 0.05 means that User B is identified as distinguishable from User A
 
 The given below graph represents the data of each time window in which based on the count of yes and no. Here yes, described that User A is statistically indistinguishable from another User B or P \&gt; 0.05. The no represents that User A is statistically distinguishable from another User B or P ≤ 0.05.
 
@@ -83,8 +75,6 @@ Total &#39;No&#39; count or when P ≤ 0.05: There is a total of 557 cells in th
 The average number of P values that are greater than 0.05: **0.7092690053148268**
 
 # Analysis: statistically indistinguishable users
-
-![](RackMultipart20200719-4-62nkg1_html_63c121e8bb6efa3d.gif)
 
 The given above graph represents the analysis of the users who are statistically indistinguishable compare to other users. The blue line represents the trends of the indistinguishable user when window size increases. The x-axis denotes the time window frame chosen for profiling the user data, and Y-axis indicates the number of users who were deemed to be statistically indistinguishable and represented din blue bat.
 
