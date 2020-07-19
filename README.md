@@ -16,15 +16,15 @@ Time Windows Analysis             |  Statistical Analysis
 
   The P table is created for 54 users, so it has 54 \* 54 table data. It is difficult to fit the table in this report, so I am adding the complete file and a link as well to the full report.
 
-**1. 10 seconds time window P values:**
+**10 seconds time window P values:**
 
-  Rows = week1 (4th Feb 2013 to 8th Feb 2013)
-  Columns = week 2 (11th Feb 2013 to 15th Feb 2013)
-  
-  CSV file: [https://usf.box.com/s/sr355f8ey0kioc6jysfma6ja9yja9ier](https://usf.box.com/s/sr355f8ey0kioc6jysfma6ja9yja9ier)
-  Yes/No Table: [https://usf.box.com/s/786a130pq391kgiegtm0lc9q2x3s4gwh](https://usf.box.com/s/786a130pq391kgiegtm0lc9q2x3s4gwh)
+Rows = week1 (4th Feb 2013 to 8th Feb 2013)
+Columns = week 2 (11th Feb 2013 to 15th Feb 2013)
 
-**2. 227 second time window P values:**
+CSV file: [https://usf.box.com/s/sr355f8ey0kioc6jysfma6ja9yja9ier](https://usf.box.com/s/sr355f8ey0kioc6jysfma6ja9yja9ier)
+Yes/No Table: [https://usf.box.com/s/786a130pq391kgiegtm0lc9q2x3s4gwh](https://usf.box.com/s/786a130pq391kgiegtm0lc9q2x3s4gwh)
+
+**227 second time window P values:**
 
 Rows = week1 (4th Feb 2013 to 8th Feb 2013)
 Columns = week 2 (11th Feb 2013 to 15th Feb 2013)
@@ -32,7 +32,7 @@ Columns = week 2 (11th Feb 2013 to 15th Feb 2013)
 Complete CSV file: [https://usf.box.com/s/q16f2dpyi43fz5qslrcbk9bqtib4g445](https://usf.box.com/s/q16f2dpyi43fz5qslrcbk9bqtib4g445)
 Yes/No Table: [https://usf.box.com/s/p2tdwg8doty84m9mnvu5d7o6yxyo4hmz](https://usf.box.com/s/p2tdwg8doty84m9mnvu5d7o6yxyo4hmz)
 
-**3. 5-minute (300 seconds) time window P values:**
+**5-minute (300 seconds) time window P values:**
 
 Rows = week1 (4th Feb 2013 to 8th Feb 2013)
 Columns = week 2 (11th Feb 2013 to 15th Feb 2013)
